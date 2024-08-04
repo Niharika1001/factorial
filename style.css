@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     min-height: 100vh;
+     background: url('https://i.ibb.co/F5b1x1w/global-currency-technology-background-money-transfer-stock-market-concept-money-transfer-global-curr.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 25px;
+ color: white;
+ border-radius: 5px;
+ background-color: transparent;
+ line-height: 30px;
+ backdrop-filter: blur(25px);
+ background: bmhn;
+}
+.wrapper input{
+    border-radius: 20px;
+    border:none;
+    position: relative;
+     padding: 10px 25px 10px 10px;
+     width: 75%;
+     height:100%;
+    
+     
+}
+.wrapper button{
+    position: center;
+}
+.p{
+    text-align: center;
+font-size: 30px;
+
+}
+button{
+    background: whitesmoke;
+    color: black;
+    border: none;
+    padding: 8px;
+    border-radius: 25px;
+}
+button:hover{
+    background-color: black;
+    color:white;
+}
+input:hover{
+    transform: scale(1.1);
+}
